@@ -1,0 +1,12 @@
+.carrousel-item{
+    width: auto;
+    height: 500px;
+    overflow: hidden;
+    transition: transform 0s ease-in-out;
+}
+.carrousel-item img{
+    height: 500px;
+}
+.carrousel-item.active{
+    display: flex;
+}
